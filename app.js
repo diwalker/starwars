@@ -10,6 +10,9 @@
 
 const express = require('express');
 
+// eslint-disable-next-line no-unused-vars
+const PORT = process.env.PORT || 3000;
+
 const app = express();
 
 app.use(express.static('public'));
@@ -19,4 +22,4 @@ app.get('/', (req, res) => {
 });
 
 // eslint-disable-next-line no-console
-app.listen(3000, () => console.log('Aplicação executando na porta 3000!'));
+app.listen(PORT, () => console.log('Aplicação executando na porta 3000!'));
