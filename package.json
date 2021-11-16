@@ -1,0 +1,31 @@
+{
+  "name": "starwars",
+  "version": "1.0.0",
+  "description": "sw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diwalker/starwars.git"
+  },
+  "author": "Diego Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diwalker/starwars/issues"
+  },
+  "homepage": "https://github.com/diwalker/starwars#readme",
+  "dependencies": {
+    "eslint-friendly-formatter": "^4.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "husky": "^7.0.4"
+  }
+}
