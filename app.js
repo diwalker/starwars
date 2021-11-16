@@ -22,4 +22,5 @@ app.get('/', (req, res) => {
 });
 
 // eslint-disable-next-line no-console
-app.listen(PORT, () => console.log('Aplicação executando na porta 3000!'));
+app.listen(PORT, () => 
+console.log('Servidor iniciado em http://localhost:" + PORT));
